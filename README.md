@@ -1,4 +1,4 @@
-# **PROJECT: BLUE PLANET** 
+# **PROJECT: GO-CARBON-NEUTRAL** 
 
 # Description
 This project aims to raise local awareness about global warming by encouraging individuals, governments, and organizations to be socially responsible and to provide an answer to the most important question of all: What is our environmental footprint?
@@ -11,7 +11,7 @@ The project's motivation is to **Think Globally, Act Locally!**
 
 This project assists you in calculating your environmental footprint by converting your activity data to CO2 estimates, allowing you to understand your environmental impact and also suggesting activities to manage and reduce CO2 emissions.
 
-The aim is to better understand CO2 emission estimates in the Agriculture/Hunting/Forestry/Fishing sector in Germany in 2021. According to a report by [newfoodmagazine.com](https://www.newfoodmagazine.com/article/167236/the-impact-of-inflation-on-food/#:~:text=Indeed%2C%20the%20reasons%20for%20food,main%20drivers%20for%20this%20elevation), the cause of food inflation is rising production costs due to rising energy costs,which is currently a challenge in Germany. Let us use the Climatiq API and data sources to calculate CO2 emission estimates and emission factors in order to gain a better understanding of the activities in the Agriculture/Hunting/Forestry/Fishing sector that contribute to CO2 emissions.
+The aim is to better understand CO2 emission estimates in the world. 
 
 # Getting Started
 
@@ -32,11 +32,8 @@ If you want to check for your python Version
 
 ## Set up 
 
-1. Clone this repo. 
 
-     git clone https://github.com/td-berlin/data-engineer-code-challenge-sirisha-jotheeswaran-padmasekhar.git
-
-2.  Generate API
+1.  Generate API
 
      Create a unique [API Key](https://www.climatiq.io/docs/guides/getting-api-key) by following the steps below: 
 
@@ -111,5 +108,3 @@ Sample inputs have been provided in the main file and outputs are logged as ment
 Test case has been written for the GET method for its success case scenario.
 
 # Author(s)
-
-[Contributors to the repository](https://github.com/td-berlin/data-engineer-code-challenge-sirisha-jotheeswaran-padmasekhar.git)
