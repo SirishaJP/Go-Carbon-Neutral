@@ -1,4 +1,4 @@
-#ProjectBluePlanet
+#ProjectGoCarbonNeutral
 # Query to search, emission factors by adding filters for "region","sector","source","year" 
 # changes can be made based on what data you would like to query. 
 #In this project, we focus on calculating total CO2 emission (kg/EUR) 
