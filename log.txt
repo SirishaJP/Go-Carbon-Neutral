@@ -1,0 +1,1060 @@
+2023-08-28 17:46:01,824 Starting new HTTPS connection (1): beta3.api.climatiq.io:443
+2023-08-28 17:46:02,445 https://beta3.api.climatiq.io:443 "GET /search?query=&sector=Transport HTTP/1.1" 200 0
+2023-08-28 17:46:02,446 GET request success
+2023-08-28 17:46:02,448 {
+    "current_page": 1,
+    "last_page": 211,
+    "total_results": 4220,
+    "results": [
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_bev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_10t_lt_12t",
+            "uuid": "ad61b8d9-bf2f-4689-b846-f9b829789f23",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_bev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_10t_lt_12t",
+            "name": "Battery EV HGV (10 - 12t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Battery electric vehicle. Between 10t and 12t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "electricity_consumption",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 0.07442792,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 0.07442792,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_bev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_12t_lt_15t",
+            "uuid": "614580a6-e444-42c5-b72a-ecee5654c75c",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_bev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_12t_lt_15t",
+            "name": "Battery EV HGV (12 - 15t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Battery electric vehicle. Between 12t and 15t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "electricity_consumption",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 0.08846931,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 0.08846931,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_bev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_5t_lt_7.5t",
+            "uuid": "cf1bb286-443d-4d1f-b882-02c1fd92c401",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_bev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_5t_lt_7.5t",
+            "name": "Battery EV HGV (5 - 7.5t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Battery electric vehicle. Between 5t and 7.5t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "electricity_consumption",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 0.04747715,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 0.04747715,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_bev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_7.5t_lt_10t",
+            "uuid": "345940cd-3cec-42ba-815e-671389067a0e",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_bev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_7.5t_lt_10t",
+            "name": "Battery EV HGV (7.5 - 10t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Battery electric vehicle. Between 7.5t and 10t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "electricity_consumption",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 0.06531862,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 0.06531862,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_10t_lt_12t",
+            "uuid": "9cb1d655-187d-4ef0-98e4-a3eb2f97d1fd",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_10t_lt_12t",
+            "name": "Diesel HGV (10 - 12t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Diesel. Between 10t and 12t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "fuel_combustion",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 0.70446052,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 0.70446052,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_12t_lt_15t",
+            "uuid": "88adbae2-3f16-4f15-8030-c4a4cbcf0fbc",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_12t_lt_15t",
+            "name": "Diesel HGV (12 -15t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Diesel. Between 12t and 15t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "fuel_combustion",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 0.83736239,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 0.83736239,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_15t_lt_20t",
+            "uuid": "c3386c16-f2fb-479d-a513-111f689f8cf4",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_15t_lt_20t",
+            "name": "Diesel HGV (15 - 20t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Diesel. Between 15t and 20t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "fuel_combustion",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 0.98622631,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 0.98622631,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_20t_lt_25t",
+            "uuid": "b706df71-fa93-4ee6-a573-5214bb5d8854",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_20t_lt_25t",
+            "name": "Diesel HGV (20 - 25t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Diesel. Between 20t and 25t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "fuel_combustion",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 1.25654538,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 1.25654538,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_25t_lt_30t",
+            "uuid": "81f6b348-708b-4856-aa71-8952fc05c70b",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_25t_lt_30t",
+            "name": "Diesel HGV (25t - 30t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Diesel. Between 25t and 30t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "fuel_combustion",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 1.37465489,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 1.37465489,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_30t",
+            "uuid": "5cd210df-feff-44f5-9d1b-cc787e61f74f",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_30t",
+            "name": "Diesel HGV (>30t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Diesel. Above 12t and 30t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "fuel_combustion",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 1.49227543,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 1.49227543,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_5t_lt_7.5t",
+            "uuid": "ffdd90f1-1bf5-4066-9e8c-6e84846bb5b5",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_5t_lt_7.5t",
+            "name": "Diesel HGV (5 - 7.5t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Diesel. Between 5t and 7.5t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "fuel_combustion",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 0.44937138,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 0.44937138,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_7.5t_lt_10t",
+            "uuid": "d1ff3e57-63c3-48dd-bce5-332ea337b60f",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_7.5t_lt_10t",
+            "name": "Diesel HGV (7.5 - 10t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Diesel. Between 7.5t and 10t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "fuel_combustion",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 0.61824098,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 0.61824098,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_lt_5t",
+            "uuid": "9d870c7f-a078-4896-8421-96bb596b8608",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_lt_5t",
+            "name": "Diesel HGV (<5t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Diesel. Below 5t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "fuel_combustion",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 0.39435057,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 0.39435057,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_na",
+            "uuid": "b34a4873-04b1-4a1b-82ae-c856d4b11831",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel-engine_size_na-vehicle_age_post_2015-vehicle_weight_na",
+            "name": "Diesel HGV (average) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Diesel. Default value. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "fuel_combustion",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 0.48012534,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 0.48012534,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel_hev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_10t_lt_12t",
+            "uuid": "97dd7477-45ef-405f-bd37-fb23f84411bf",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel_hev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_10t_lt_12t",
+            "name": "Diesel hybrid HGV (10t - 12t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Diesel hybrid. Between 10t and 12t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "fuel_combustion",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 0.56228286,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 0.56228286,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel_hev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_12t_lt_15t",
+            "uuid": "22488808-b5c5-40d4-adc1-9ee5fff6ba31",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel_hev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_12t_lt_15t",
+            "name": "Diesel hybrid HGV (12t - 15t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Diesel hybrid. Between 12t and 15t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "fuel_combustion",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 0.66836183,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 0.66836183,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel_hev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_15t_lt_20t",
+            "uuid": "8d810223-95cb-48c4-8c88-b716e66a1a8b",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel_hev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_15t_lt_20t",
+            "name": "Diesel hybrid HGV (15t - 20t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Diesel hybrid. Between 15t and 20t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "fuel_combustion",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 0.89642488,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 0.89642488,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel_hev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_20t_lt_25t",
+            "uuid": "6149112f-bf55-4efa-887c-3299f6d20266",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel_hev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_20t_lt_25t",
+            "name": "Diesel hybrid HGV (20t - 25t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Diesel hybrid. Between 20t and 25t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "fuel_combustion",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 1.14212988,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 1.14212988,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel_hev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_25t_lt_30t",
+            "uuid": "a6da9356-1c0c-4c5b-9d98-8f5ba8041b5a",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel_hev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_25t_lt_30t",
+            "name": "Diesel hybrid HGV (25t - 30t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Diesel hybrid. Between 25t and 30t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "fuel_combustion",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 1.29211664,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 1.29211664,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        },
+        {
+            "activity_id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel_hev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_30t",
+            "uuid": "d347ca9a-11b9-42d8-a084-91364d04c1fc",
+            "id": "commercial_vehicle-vehicle_type_hgv-fuel_source_diesel_hev-engine_size_na-vehicle_age_post_2015-vehicle_weight_gt_30t",
+            "name": "Diesel hybrid HGV (>30t) post-2015",
+            "category": "Vehicles",
+            "sector": "Transport",
+            "source": "MfE",
+            "source_link": "https://environment.govt.nz/publications/measuring-emissions-detailed-guide-2020/",
+            "source_dataset": "Measuring Emissions: Detailed Guide",
+            "uncertainty": null,
+            "year": "2020",
+            "region": "NZ",
+            "region_name": "New Zealand",
+            "description": "Emission intensity of heavy goods vehicle. Diesel hybrid. Above 12t and 30t. Heavy goods vehicles. No upstream or downstream LCA activity is included. Post-2015 fleet.  Published by the Ministry for the Environment of New Zealand in 2020. Retrieved from 2020 Emission Factors Flat File.",
+            "unit_type": [
+                "Distance"
+            ],
+            "unit": "kg/km",
+            "lca_activity": "fuel_combustion",
+            "data_quality_flags": [],
+            "access_type": "public",
+            "supported_calculation_methods": [
+                "ar4"
+            ],
+            "factor": 1.40267491,
+            "factor_calculation_method": "ar4",
+            "factor_calculation_origin": "source",
+            "constituent_gases": {
+                "co2e_total": 1.40267491,
+                "co2e_other": null,
+                "co2": null,
+                "ch4": null,
+                "n2o": null
+            }
+        }
+    ],
+    "possible_filters": {
+        "year": [
+            "2022",
+            "2021",
+            "2020",
+            "2019",
+            "2018",
+            "2017"
+        ],
+        "source": [
+            "ADEME",
+            "BEIS",
+            "EPA",
+            "EXIOBASE",
+            "GHG Protocol",
+            "GLEC",
+            "MfE",
+            "STC-Nestra B.V.",
+            "UBA"
+        ],
+        "source_dataset": [
+            "Base Carbone",
+            "Default Fuel Efficiency and CO2e Intensity Factors",
+            "EXIOBASE 3",
+            "GHG emission factors for IWT",
+            "GHG Emission Factors Hub",
+            "GHG Emissions Calculation Tool",
+            "Measuring Emissions: Detailed Guide",
+            "ProBas",
+            "Quantis and GHG Protocol Scope 3 Evaluator",
+            "Supply Chain Factors Dataset (commodities)",
+            "UK full dataset including conversion factors by COICOP code (archived)",
+            "UK full dataset including conversion factors by SIC code",
+            "UK Government GHG Conversion Factors for Company Reporting"
+        ],
+        "region": [
+            {
+                "id": "ASIA_AFRICA",
+                "name": "Asia and Africa"
+            },
+            {
+                "id": "AT",
+                "name": "Austria"
+            },
+            {
+                "id": "AU",
+                "name": "Australia"
+            },
+            {
+                "id": "BE",
+                "name": "Belgium"
+            },
+            {
+                "id": "BG",
+                "name": "Bulgaria"
+            },
+            {
+                "id": "BR",
+                "name": "Brazil"
+            },
+            {
+                "id": "CA",
+                "name": "Canada"
+            },
+            {
+                "id": "CH",
+                "name": "Switzerland"
+            },
+            {
+                "id": "CN",
+                "name": "China"
+            },
+            {
+                "id": "CY",
+                "name": "Cyprus"
+            },
+            {
+                "id": "CZ",
+                "name": "Czech Republic"
+            },
+            {
+                "id": "DE",
+                "name": "Germany"
+            },
+            {
+                "id": "DK",
+                "name": "Denmark"
+            },
+            {
+                "id": "EE",
+                "name": "Estonia"
+            },
+            {
+                "id": "ES",
+                "name": "Spain"
+            },
+            {
+                "id": "EU",
+                "name": "European Union"
+            },
+            {
+                "id": "EU_S_AMERICA",
+                "name": "Europe and South America"
+            },
+            {
+                "id": "FI",
+                "name": "Finland"
+            },
+            {
+                "id": "FR",
+                "name": "France"
+            },
+            {
+                "id": "FR-OIA",
+                "name": "Corscia, 2B, FR"
+            },
+            {
+                "id": "FR-PAR",
+                "name": "Paris, 75, FR"
+            },
+            {
+                "id": "GB",
+                "name": "United Kingdom"
+            },
+            {
+                "id": "GB-LON",
+                "name": "London, LND, GB"
+            },
+            {
+                "id": "GLOBAL",
+                "name": "Global"
+            },
+            {
+                "id": "GR",
+                "name": "Greece"
+            },
+            {
+                "id": "HR",
+                "name": "Croatia"
+            },
+            {
+                "id": "HU",
+                "name": "Hungary"
+            },
+            {
+                "id": "ID",
+                "name": "Indonesia"
+            },
+            {
+                "id": "IE",
+                "name": "Ireland"
+            },
+            {
+                "id": "IN",
+                "name": "India"
+            },
+            {
+                "id": "IT",
+                "name": "Italy"
+            },
+            {
+                "id": "JP",
+                "name": "Japan"
+            },
+            {
+                "id": "KR",
+                "name": "Korea, Republic of"
+            },
+            {
+                "id": "LT",
+                "name": "Lithuania"
+            },
+            {
+                "id": "LU",
+                "name": "Luxembourg"
+            },
+            {
+                "id": "LV",
+                "name": "Latvia"
+            },
+            {
+                "id": "MT",
+                "name": "Malta"
+            },
+            {
+                "id": "MX",
+                "name": "Mexico"
+            },
+            {
+                "id": "N_AMERICA",
+                "name": "North America"
+            },
+            {
+                "id": "NL",
+                "name": "Netherlands"
+            },
+            {
+                "id": "NO",
+                "name": "Norway"
+            },
+            {
+                "id": "NZ",
+                "name": "New Zealand"
+            },
+            {
+                "id": "NZ-WLG",
+                "name": "Wellington, WGN, NZ"
+            },
+            {
+                "id": "PL",
+                "name": "Poland"
+            },
+            {
+                "id": "PT",
+                "name": "Portugal"
+            },
+            {
+                "id": "RO",
+                "name": "Romania"
+            },
+            {
+                "id": "ROW_WA",
+                "name": "Central Asia and Pacific Asia, Oceania, Antarctica"
+            },
+            {
+                "id": "ROW_WE",
+                "name": "East Europe and Iceland"
+            },
+            {
+                "id": "ROW_WF",
+                "name": "Africa except Egypt and South Africa"
+            },
+            {
+                "id": "ROW_WL",
+                "name": "Latin America except Brazil"
+            },
+            {
+                "id": "ROW_WM",
+                "name": "Middle East, Asia and Egypt"
+            },
+            {
+                "id": "RU",
+                "name": "Russian Federation"
+            },
+            {
+                "id": "SE",
+                "name": "Sweden"
+            },
+            {
+                "id": "SI",
+                "name": "Slovenia"
+            },
+            {
+                "id": "SK",
+                "name": "Slovakia"
+            },
+            {
+                "id": "TR",
+                "name": "Turkey"
+            },
+            {
+                "id": "TW",
+                "name": "Taiwan, Province of China"
+            },
+            {
+                "id": "US",
+                "name": "United States"
+            },
+            {
+                "id": "ZA",
+                "name": "South Africa"
+            }
+        ],
+        "category": [
+            "Air Freight",
+            "Air Travel",
+            "Rail Freight",
+            "Rail Travel",
+            "Road Freight",
+            "Road Travel",
+            "Sea Freight",
+            "Sea Travel",
+            "Tickets and Passes",
+            "Transport Services and Warehousing",
+            "Vehicles"
+        ],
+        "sector": [
+            "Transport"
+        ],
+        "unit_type": [
+            "Distance",
+            "Money",
+            "Number",
+            "ContainerOverDistance",
+            "PassengerOverDistance",
+            "Weight",
+            "WeightOverDistance"
+        ],
+        "lca_activity": [
+            "cradle_to_shelf",
+            "electricity_consumption",
+            "electricity_generation",
+            "fuel_combustion",
+            "fuel_upstream-fuel_combustion",
+            "fuel_upstream-fuel_combustion-fugitive_emissions",
+            "fuel_upstream-manufacturing",
+            "fuel_upstream-manufacturing-fuel_combustion",
+            "manufacturing-electricity_consumption",
+            "transmission_and_distribution",
+            "unknown",
+            "tank_to_wheel",
+            "well_to_wheel",
+            "upstream",
+            "upstream-electricity_consumption",
+            "upstream-fuel_combustion",
+            "upstream-manufacturing",
+            "upstream-manufacturing-fuel_combustion",
+            "upstream-use_phase",
+            "use_phase",
+            "well_to_propeller",
+            "well_to_tank"
+        ],
+        "access_type": [
+            "public"
+        ],
+        "data_quality_flags": [
+            "erroneous_calculation",
+            "notable_methodological_variance"
+        ]
+    }
+}

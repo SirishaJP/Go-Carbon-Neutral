@@ -1,2 +1,0 @@
-2022-11-08 02:55:19,995 Starting new HTTPS connection (1): beta3.api.climatiq.io:443
-2022-11-08 02:55:20,154 https://beta3.api.climatiq.io:443 "GET /search?query=&region=DE&sector=Agriculture%2FHunting%2FForestry%2FFishing&source=EXIOBASE&year=2021 HTTP/1.1" 401 76
